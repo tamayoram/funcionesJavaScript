@@ -8,7 +8,5 @@ let finalY=25;
 
 let resultadoDistancia=(xinicial,xfinal,yinicial,yfinal)=>Math.sqrt(Math.pow((xfinal-xinicial),2)+Math.pow((yfinal-yinicial),2)).toFixed(2);
 
-llamadoResultadoDistancia=resultadoDistancia(inicialX,finalX,inicialY,finalY);
-
-console.log(`La distancia solicitada es ${llamadoResultadoDistancia}`);
+console.log(`La distancia solicitada es ${resultadoDistancia(inicialX,finalX,inicialY,finalY)}`);
 

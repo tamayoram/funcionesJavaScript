@@ -5,7 +5,7 @@ let nombre4="ARQ2558: Juan Camilo Tamayo";
 
 function separarNombre(nombre){
     
-    let nombreUnico=nombre.split(":");
+    let nombreUnico=nombre.split(": ");
     nombreUnico=nombreUnico[1];
     return nombreUnico;
 }
@@ -16,5 +16,5 @@ llamadoNombre3=separarNombre(nombre3);
 llamadoNombre4=separarNombre(nombre4);
 
 
-console.log(`Los nombres requeridos son: ${llamadoNombre1},${llamadoNombre2},${llamadoNombre3} y ${llamadoNombre4}`);
+console.log(`Los nombres requeridos son: ${llamadoNombre1}, ${llamadoNombre2}, ${llamadoNombre3} y ${llamadoNombre4}`);
 
